@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Teko", sans-serif;
+}
+
+#announcement11 {
+  background: #ffffff;
+  color: rgb(225, 12, 12);
+  padding: 0%;
+  text-align: "center";
+  font-size: 14pt;
+}
+
+.head1 {
+  height: 40%; /* default height */
+}
+
+@media only screen and (max-width: 768px) {
+  .head1 {
+    height: 30%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .head1 {
+    height: 20%;
+  }
+}
